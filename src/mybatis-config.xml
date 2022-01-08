@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <properties resource="db.properties"/>
+    
+    <!--
+        设置与数据库交互的环境    
+     -->
+    <!--settings>
+        <setting name="" value=""/>
+    </settings-->
+    
+    <typeAliases>
+        <typeAlias type="com.eslin.domain.Student" alias="stu"/>
+        <package name="com.eslin.domain"/>
+    </typeAliases>
+
+    <environments default="oracle21c">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+
+        <environment id="oracle21c">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${ojdbc.driver}"/>
+                <property name="url" value="${ojdbc.url}"/>
+                <property name="username" value="${ojdbc.username}"/>
+                <property name="password" value="${ojdbc.password}"/>
+            </dataSource>
+        </environment>
+
+    </environments>
+    <mappers>
+        <!--mapper resource="org/mybatis/example/BlogMapper.xml"/-->
+<!--        <mapper resource="com/eslin/dao/StudentDao.xml"/>-->
+        <!--mapper class = "com.eslin.dao.StudentDao"/-->
+        <package name="com.eslin.dao"/>
+    </mappers>
+</configuration>
