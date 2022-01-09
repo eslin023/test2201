@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e741529e-002c-4e60-8271-a28ba582f88a" name="Default Changelist" comment="初始导入">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/eslin/test/test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eslin/test/test3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/eslin/test/test3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -290,7 +286,7 @@
       <workItem from="1641566536867" duration="4414000" />
       <workItem from="1641606946623" duration="475000" />
       <workItem from="1641637232986" duration="10829000" />
-      <workItem from="1641703313658" duration="3645000" />
+      <workItem from="1641703313658" duration="6059000" />
     </task>
     <task id="LOCAL-00001" summary="初始导入">
       <created>1641652408634</created>
@@ -299,11 +295,18 @@
       <option name="project" value="LOCAL" />
       <updated>1641652408634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始导入">
+      <created>1641724081603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641724081603</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19153000" />
+    <option name="totallyTimeSpent" value="21567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,8 +319,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="847" y="0" width="867" height="927" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2620519" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2620519" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,7 +330,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44528303" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44528303" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39899623" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -755,11 +759,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/eslin/test/test3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
