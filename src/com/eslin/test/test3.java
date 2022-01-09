@@ -17,7 +17,7 @@ public class test3 {
         List<StudentAndClassroomVo> voList = studentDao.select21();
         for(StudentAndClassroomVo vo:voList){
             System.out.println(vo);
-            System.out.println("我变了");
+            System.out.println("我了");
         }
 
 
